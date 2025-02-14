@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    font-family: 'monserat', sans-serif;
+}
+body {
+    margin: 0; /* Supprime les marges par défaut du body */
+}
+
+h1{
+    font-family: "cardo", sans-serif;
+    width: 700;
+    font-size: 36px;
+}
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px /* Ajout d'un peu de padding */
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1px; /* Ajout d'un peu de padding */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: black;
+    font-family: 'monserat', sans-serif;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    margin: 3%;
+    margin-left: 8%;
+}
+.nav-links:first-child{
+    margin-left: 4%;
+}
+.top-bar img.icons {
+    height: 25px;
+    width: 25px;
+    margin-right: 30px; 
+}
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    
+}
+.logo{
+    height: 70%;
+}
+main {
+    
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+}
+.articles{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    float: left;
+    margin-top: 5%;
+    max-width: 50%;
+}
+.articles div{
+    display: flex;
+    flex-direction: row;
+
+}
+.articles .contenue{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar{
+    width: 378px; /* Largeur de la sidebar */
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    background-color: #FBFBFB; /* Couleur de fond */
+    float: right;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optionnel : ajout d'une ombre pour un effet visuel */
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.sidebar hr {
+    width: 80%; /* Ajustez la largeur selon vos besoins */
+    border: 1px solid #ccc; /* Couleur et épaisseur de la barre */
+    margin: 20px ; /* Espacement autour de la barre */
+}
+.div h1{
+    margin-top: 30%;
+}
+.div ul{
+    padding-left: 0;
+  
+}
+.div ul li{
+    color: #9F9F9F;
+    list-style: none;
+    padding: 10px;
+}
